@@ -3,6 +3,7 @@ window.addEventListener('load', ()=>{
     const input = document.querySelector("#new-task-input");
     const list_el= document.querySelector("#task")
 
+    
     form.addEventListener('submit', (e) =>{
         e.preventDefault ();
 
@@ -24,7 +25,7 @@ window.addEventListener('load', ()=>{
         task_content_el.innerText=task;
 
         task_el.appendChild(task_content_el);
-        
+
         const task_input_el = document.createElement("input");
         task_input_el.classList.add("text");
         task_input_el.type = "text";
