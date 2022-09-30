@@ -12,7 +12,7 @@ window.addEventListener('load', ()=>{
         if (!task) {
             alert("por favor coloque el articulo")
         } else {
-            console.log ("listo")
+            console.log ("Listo")
             return;
         }
 
